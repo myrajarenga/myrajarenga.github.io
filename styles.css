@@ -98,6 +98,7 @@ p {
 .logo {
     height: 80px;
     margin: 30px;
+    border-radius: 50px;
 }
 .social {
     margin: 20px;
@@ -160,6 +161,10 @@ hr {
 .project-link {
     text-decoration: none;
     color: #ef744b;
+
+}
+.project-link:hover{
+    color: blueviolet;
 }
 
 a {
