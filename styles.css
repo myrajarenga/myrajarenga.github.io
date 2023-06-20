@@ -212,3 +212,12 @@ a {
         display: none;
     }
 }
+.resume_link{
+    color: blue;
+}
+.resume_link:hover{
+    color: #ef744b;
+}
+.paragraph{
+    font-size: 25px;
+}
