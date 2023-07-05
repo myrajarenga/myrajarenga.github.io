@@ -5,6 +5,7 @@ body {
 
 section {
     background-color: white;
+    
 }
 
 .hero {
@@ -49,8 +50,8 @@ h2 {
 
 p {
     margin: 0;
-    font-size: 30px;
-    font-weight: 300;
+    font-size: larger ;
+    font-weight: 500;
 }
 
 .subtext {
@@ -141,7 +142,7 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
-    .project-container {
+    .project-container, .information, .headshot-container {
         display: flex;
         flex-wrap: wrap;
     }
@@ -220,4 +221,33 @@ a {
 }
 .paragraph{
     font-size: 25px;
+}
+input[type="text"],
+input[type="email"] {    
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    text-emphasis-color: black;
+}
+      
+button {
+    color: aliceblue;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 100px;
+    padding: 12px 20px;
+    background-color: #66CC99;
+    border: none; /* changed 'blac' to 'none' */
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+button:hover {
+    color: #ef744b;
+}
+.paragraph {
+    font-size: small;
 }
