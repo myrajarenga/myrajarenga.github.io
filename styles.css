@@ -35,9 +35,11 @@ ul {
     font-size: 30px;
 }
 
+
 li {
     text-decoration: none;
 }
+
 
 h1 {
     font-size: 90px;
@@ -50,7 +52,12 @@ h2 {
 
 p {
     margin: 0;
-    font-size: larger ;
+    font-size: 25px ;
+    font-weight: 500;
+}
+.para {
+    margin: 0;
+    font-size: 20px ;
     font-weight: 500;
 }
 
