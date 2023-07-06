@@ -141,7 +141,7 @@ p {
     justify-content: space-around;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
     .project-container, .information, .headshot-container {
         display: flex;
         flex-wrap: wrap;
@@ -182,7 +182,7 @@ a {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
     .hamburger {
         display: block;
         border: 0;
